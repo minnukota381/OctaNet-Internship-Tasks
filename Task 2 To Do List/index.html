@@ -10,9 +10,99 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Rubik', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.sigarch.org/wp-content/uploads/2021/08/AdobeStock_272468948-scaled.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Card Styles */
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            background-color: rgba(255, 255, 255, 0.5); /* Translucent white */
+            backdrop-filter: blur(10px); /* Apply backdrop blur */
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Header Styles */
+        .jumbotron {
+            background: rgba(0, 0, 0, 0.6); /* Translucent black */
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .jumbotron p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        /* Button Styles */
+        .btn-primary {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(0, 0, 0, 0.6); /* Translucent black */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 767px) {
+            .jumbotron {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+        }
+
+        /* Utility Classes */
+        .text-center {
+            text-align: center;
+        }
+
+        .font-weight-bold {
+            font-weight: bold;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem;
+        }
+
+        .mt-4 {
+            margin-top: 1.5rem;
+        }
+    </style>
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid text-center">
@@ -29,7 +119,7 @@
         <div class="container">
             <h2 class="text-center mb-4 font-weight-bold">
                 <i class="fas fa-list"></i>
-                Topics Covered
+                Topics
             </h2>
             <div class="row">
                 <div class="col-md-4">
@@ -69,8 +159,6 @@
                     </div>
                 </div>
             </div>
-            <h3 class="font-weight-bold mt-4">Target Participants:</h3>
-            <p>Students of B.Tech./M.Tech./B.Sc./M.Sc./BCA/MCA Programs</p>
         </div>
     </section>
 
@@ -106,24 +194,27 @@
         </div>
     </section>
     
-
     <section id="register">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
-                    <h2 class="text-center mb-4 font-weight-bold">Register Now</h2>
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name" required>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4 font-weight-bold">Register Now</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Phone" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" placeholder="Phone" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
