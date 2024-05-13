@@ -1,59 +1,49 @@
-/* General styles */
 body {
-    font-family: sans-serif;
-    background-color: #f5f5f5;
-  }
-  
-  .container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-  }
-  
-  .lead {
-    font-size: 1.25rem;
-  }
-  
-  /* Header styles */
-  .header {
-    min-height: 60vh;
-    background-image: url("banner.jpg"); /* Replace with your banner image */
+    font-family: 'Orbitron', sans-serif;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?quantum,computing');
     background-size: cover;
-    background-position: center;
-    color: #fff;
-  }
-  
-  /* About section styles */
-  .about {
-    text-align: justify;
-  }
-  
-  /* Instructor section styles */
-  .instructor img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  /* Registration section styles */
-  #registration {
-    border-radius: 5px;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .alert-success {
-    margin-top: 1rem;
-  }
-  
-  /* Footer styles */
-  .footer {
-    font-size: 0.8rem;
-  }
-  
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn-primary {
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.btn-primary:hover {
+    background-color: #3367D6;
+    border-color: #3367D6;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #333;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .jumbotron {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

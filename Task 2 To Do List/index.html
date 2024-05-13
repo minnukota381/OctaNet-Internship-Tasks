@@ -3,77 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Computing Workshop</title>
+    <title>Quantum Computing for Beginners Workshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .jumbotron {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?quantum,computing');
-            background-size: cover;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        .btn-primary {
-            background-color: #4285F4;
-            border-color: #4285F4;
-        }
-
-        .btn-primary:hover {
-            background-color: #3367D6;
-            border-color: #3367D6;
-        }
-
-        section {
-            padding: 60px 0;
-        }
-
-        footer {
-            background-color: #333;
-        }
-
-        @media (max-width: 767px) {
-            .jumbotron {
-                padding-top: 60px;
-                padding-bottom: 60px;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
-            <h1 class="display-4">Quantum Computing Workshop</h1>
-            <p class="lead">Learn the Mathematics and Physics of Quantum Computing</p>
-            <p>Conducted by Dr. Ashok Mishra</p>
-            <p>Registration Fee: Rs. 1500/-</p>
+            <h1 class="display-4 font-weight-bold">Quantum Computing for Beginners Workshop</h1>
+            <p class="lead">Learn the Fundamentals of Quantum Computing</p>
+            <p>Organized by the Center for Computational Mathematics</p>
+            <p>24th to 29th March 2023</p>
             <a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a>
         </div>
     </div>
 
     <section id="about">
         <div class="container">
+            <h2 class="text-center mb-4 font-weight-bold">
+                <i class="fas fa-list"></i>
+                Topics Covered
+            </h2>
             <div class="row">
-                <div class="col-md-8">
-                    <h2>About the Workshop</h2>
-                    <p>This three-day workshop will cover the fundamentals of Mathematics and Physics required for Quantum Computing Gates Simulation using IBM Composer. Participants will also work on a real-time project to implement their learnings.</p>
-                    <p>The workshop is scheduled for the second week of July (dates to be announced).</p>
-                    <h3>Topics Covered</h3>
-                    <ul>
-                        <li>Introduction to Quantum Computing</li>
-                        <li>Mathematics for Quantum Computing</li>
-                        <li>Quantum Physics</li>
-                        <li>Quantum Gates and Circuits</li>
-                        <li>IBM Composer for Quantum Computing</li>
-                        <li>Real-time Project Implementation</li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm rounded hover-effect">
+                        <div class="card-body">
+                            <i class="fas fa-quantum-computing fa-2x mb-3"></i>
+                            <h5 class="card-title">Quantum Computation using Qiskit (IBMQ)</h5>
+                            <p class="card-text">Learn about quantum computation using IBM's Qiskit platform.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <h2 id="register">Register Now</h2>
+                    <div class="card mb-4 shadow-sm rounded hover-effect">
+                        <div class="card-body">
+                            <i class="fas fa-microchip fa-2x mb-3"></i>
+                            <h5 class="card-title">Quantum bits, Quantum Logicgates & Quantum Circuits</h5>
+                            <p class="card-text">Understand the fundamentals of quantum bits, logic gates, and circuits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm rounded hover-effect">
+                        <div class="card-body">
+                            <i class="fas fa-link fa-2x mb-3"></i>
+                            <h5 class="card-title">Quantum Entanglement & Quantum Teleportation</h5>
+                            <p class="card-text">Explore the concepts of quantum entanglement and quantum teleportation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm rounded hover-effect">
+                        <div class="card-body">
+                            <i class="fas fa-code fa-2x mb-3"></i>
+                            <h5 class="card-title">Quantum Algorithm & Simulation</h5>
+                            <p class="card-text">Learn about quantum algorithms and simulation techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="font-weight-bold mt-4">Target Participants:</h3>
+            <p>Students of B.Tech./M.Tech./B.Sc./M.Sc./BCA/MCA Programs</p>
+        </div>
+    </section>
+
+    <section id="registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="font-weight-bold mb-4">Registration Period</h3>
+                    <p>25th February to 22nd March 2023</p>
+                    <h4 class="font-weight-bold mt-4">Early Bird Registration</h4>
+                    <p>25th February to 15th March 2023</p>
+                    <p>Early Bird Registration Fee: Rs. 1000/-</p>
+                    <p>Fee beyond Early Bird Registration: Rs. 1500/-</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="font-weight-bold mb-4">CUTM Bank Details</h3>
+                    <p>Punjab National Bank, Paralakhemundi</p>
+                    <p>Account No.: 16681131000056</p>
+                    <p>IFSC CODE: PUNB0166810</p>
+                    <p>MICR CODE: 761024103</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="text-center mb-4 font-weight-bold">Register Now</h2>
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Name" required>
@@ -92,11 +119,12 @@
     </section>
 
     <footer class="text-white text-center py-3">
-        <p>&copy; Quantum Computing Workshop 2024</p>
+        <p>&copy; Quantum Computing for Beginners Workshop 2023</p>
+        <p><strong>NB:</strong> Please download the Flyer to scan the Registration properly.</p>
     </footer>
 
     <script>
-        // Add smooth scrolling to anchor links
+        // Smooth scrolling script
         $(document).ready(function(){
             $('a[href^="#"]').on('click', function(e) {
                 e.preventDefault();
@@ -106,6 +134,3 @@
                 }, 500);
             });
         });
-    </script>
-</body>
-</html>
