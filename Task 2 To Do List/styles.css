@@ -1,49 +1,55 @@
 body {
-    font-family: 'Orbitron', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?quantum,computing');
-    background-size: cover;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    padding-top: 100px;
-    padding-bottom: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?quantum,computing');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .btn-primary {
-    background-color: #4285F4;
-    border-color: #4285F4;
+  background-color: #4285F4;
+  border-color: #4285F4;
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #3367D6;
-    border-color: #3367D6;
+  background-color: #3367D6;
+  border-color: #3367D6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 footer {
-    background-color: #333;
+  background-color: #333;
 }
 
 .card {
-    transition: transform 0.3s;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .rounded {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 @media (max-width: 767px) {
-    .jumbotron {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+  .jumbotron {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
 }
