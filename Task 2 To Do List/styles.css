@@ -6,21 +6,26 @@ body {
   background-image: url('https://www.sigarch.org/wp-content/uploads/2021/08/AdobeStock_272468948-scaled.jpeg');
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
 }
 
-/* Section Heading Styles */
-h2.section-heading {
-  color: white; /* Change color to white for better visibility */
+h2 {
+  text-transform: uppercase;
+  color: white;
 }
-
-/* Card Styles */
+.col-md-4{
+  padding: 30px;
+}
 .card {
   border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
   transition: all 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.5); /* Translucent white */
-  backdrop-filter: blur(10px); /* Apply backdrop blur */
-  height: 100%; /* Ensure all cards have the same height */
+  background-color: rgba(70, 70, 70, 0.5); 
+  backdrop-filter: blur(10px);
+  height: 100%;
 }
 
 .card:hover {
@@ -28,9 +33,8 @@ h2.section-heading {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Header Styles */
 .jumbotron {
-  background: rgba(0, 0, 0, 0.6); /* Translucent black */
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   text-align: center;
   padding-top: 100px;
@@ -49,11 +53,14 @@ h2.section-heading {
   margin-bottom: 30px;
 }
 
-/* Button Styles */
 .btn-primary {
-  background-color: #4CAF50;
-  border-color: #4CAF50;
+  background-color: #b700ff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #bf00ff;
   transition: all 0.3s ease;
+  display: block;
 }
 
 .btn-primary:hover {
@@ -63,15 +70,14 @@ h2.section-heading {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer Styles */
 footer {
-  background-color: rgba(0, 0, 0, 0.6); /* Translucent black */
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   text-align: center;
   padding: 20px 0;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 767px) {
   .jumbotron {
       padding-top: 60px;
@@ -79,7 +85,6 @@ footer {
   }
 }
 
-/* Utility Classes */
 .text-center {
   text-align: center;
 }
