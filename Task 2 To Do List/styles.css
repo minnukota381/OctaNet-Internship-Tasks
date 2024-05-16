@@ -6,13 +6,20 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
   }
-  
+  .navbar{
+    background-color: rgba(245, 245, 220, 0.8);
+  }
+  .navbar .navbar-brand{
+    color: #000;
+    font-weight: 900;
+  }
   .card {
     background-color: rgba(245, 245, 220, 0.8);
     border: none;
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
   }
   
   .card:hover {
