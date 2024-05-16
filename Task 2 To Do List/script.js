@@ -69,7 +69,6 @@ function editTask(index) {
     renderTasks();
     showToast('Task edited successfully', 'success');
   } else if (newTaskText === null) {
-    // Do nothing
   } else {
     showToast('Please enter a valid task', 'warning');
   }
