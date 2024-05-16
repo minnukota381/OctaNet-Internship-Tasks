@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1434901.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  .form-control::placeholder {
+    color: #ccc;
+  }
+  .list-group-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  .list-group-item.checked {
+    text-decoration: line-through;
+    color: #aaa;
+  }
