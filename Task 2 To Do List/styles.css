@@ -8,8 +8,9 @@ body {
   }
   
   .card {
-    background-color: rgba(245, 245, 220, 0.8); /* Light beige color */
+    background-color: rgba(245, 245, 220, 0.8);
     border: none;
+    border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
   }
@@ -20,62 +21,62 @@ body {
   }
   
   .card-header {
-    background-color: rgba(218, 165, 32, 0.8); /* Golden brown color */
+    background-color: rgba(218, 165, 32, 0.8);
     color: #fff;
   }
   
   .form-control {
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
-    color: #333; /* Dark text color */
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333;
     border: none;
     transition: all 0.3s ease-in-out;
   }
   
   .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.7); /* Lighter semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .form-control::placeholder {
-    color: #999; /* Light gray color */
+    color: #999;
   }
   
   .list-group-item {
-    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
-    color: #333; /* Dark text color */
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #333;
     border: none;
     transition: all 0.3s ease-in-out;
   }
   
   .list-group-item:hover {
-    background-color: rgba(255, 255, 255, 0.5); /* Slightly more opaque white */
+    background-color: rgba(255, 255, 255, 0.5);
   }
   
   .list-group-item.checked {
     text-decoration: line-through;
-    color: #999; /* Light gray color */
+    color: #999;
   }
   
   .btn-primary {
-    background-color: #4d7c0f; /* Dark green color */
+    background-color: #4d7c0f;
     border-color: #4d7c0f;
     transition: all 0.3s ease-in-out;
     color: #fff;
   }
   
   .btn-primary:hover {
-    background-color: #3d6310; /* Darker green color */
+    background-color: #3d6310;
     border-color: #3d6310;
   }
   
   .btn-danger {
-    background-color: #a52a2a; /* Dark red color */
+    background-color: #a52a2a;
     border-color: #a52a2a;
     transition: all 0.3s ease-in-out;
     color: #fff;
   }
   
   .btn-danger:hover {
-    background-color: #8b2525; /* Darker red color */
+    background-color: #8b2525;
     border-color: #8b2525;
   }
