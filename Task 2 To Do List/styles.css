@@ -1,8 +1,13 @@
 body {
+    color: #fff;
+    overflow-x: hidden;
+  }
+  .parallax {
     background-image: url('https://wallpaperaccess.com/full/1434901.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    background-attachment: fixed;
+    min-height: 100vh;
   }
   .card {
     background-color: rgba(0, 0, 0, 0.7);
